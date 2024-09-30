@@ -26,4 +26,4 @@ Task5
 Напишіть SQL команду, за допомогою якої можна знайти кількість продуктів (рядків) та середню ціну (price) у кожного постачальника (supplier_id)
 
 select supplier_id, count(price), avg(price) from lesson_three.products 
-where price >= 20 and price <=100 group by supplier_id
+group by supplier_id
